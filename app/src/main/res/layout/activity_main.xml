@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textVIewAppName"
+        android:layout_width="206dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="92dp"
+        android:text="@string/co_health"
+        android:textAllCaps="true"
+        android:textSize="36sp"
+        app:fontFamily="@font/cutive_mono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="Enter username"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="180dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="276dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="@string/sign_in"
+        android:textSize="14sp"
+        android:onClick="gotoSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNotAMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="@string/not_a_member"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="180dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="408dp"
+        android:background="@android:color/black"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:onClick="gotoSignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

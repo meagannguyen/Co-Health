@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">co_health</string>
+    <string name="co_health">Co-Health</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="sign_in">sign in</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
