@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background">
 
     <Button
         android:id="@+id/button2"
@@ -13,6 +14,7 @@
         android:text="Browse Volunteers"
         android:textColor="@android:color/black"
         android:textSize="35sp"
+        android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -25,6 +27,7 @@
         android:layout_width="242dp"
         android:layout_height="186dp"
         android:text="Be Paired with a Volunteer"
+        android:background="@android:color/white"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,6 +45,7 @@
         android:inputType="textMultiLine"
         android:text="Disclaimer: Volunteers are not licensed health professionals. If you are seeking a mental health diagnosis or treatment, please refer to our licensed therapists. Volunteers undergo a required screening and course prior to being hired. However, volunteers are not required to abide by doctor-patient confidentiality. If you have any thoughts of suicide or self-harm, please call the National Suicide Hotline, the national emergency number, or refer to our licensed therapists."
         android:textSize="15sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,6 +57,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
+        android:textSize="20sp"
+        android:background="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.097"
