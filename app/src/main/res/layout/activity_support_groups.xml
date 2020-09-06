@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="Back"
+        android:background="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
@@ -25,7 +26,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="Bipolar Disorder"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="523dp" />
 
@@ -34,7 +35,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="OCD"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="450dp" />
 
@@ -43,7 +44,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="Anxiety"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="374dp" />
 
@@ -52,7 +53,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="Depression"
-        android:background="@android:color/holo_orange_light"
+        android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="301dp" />
 
