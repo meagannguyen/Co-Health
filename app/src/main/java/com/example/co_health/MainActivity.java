@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button signUpButton;
     Button signInButton;
-
+    // Firebase
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
