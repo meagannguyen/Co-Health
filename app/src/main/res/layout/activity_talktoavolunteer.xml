@@ -11,6 +11,8 @@
         android:layout_width="242dp"
         android:layout_height="186dp"
         android:text="Browse Volunteers"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -23,6 +25,7 @@
         android:layout_width="242dp"
         android:layout_height="186dp"
         android:text="Be Paired with a Volunteer"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -32,16 +35,18 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="495dp"
-        android:layout_height="163dp"
+        android:layout_width="379dp"
+        android:layout_height="178dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         android:text="Disclaimer: Volunteers are not licensed health professionals. If you are seeking a mental health diagnosis or treatment, please refer to our licensed therapists. Volunteers undergo a required screening and course prior to being hired. However, volunteers are not required to abide by doctor-patient confidentiality. If you have any thoughts of suicide or self-harm, please call the National Suicide Hotline, the national emergency number, or refer to our licensed therapists."
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.583" />
 
     <Button
         android:id="@+id/button3"
