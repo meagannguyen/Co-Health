@@ -8,41 +8,56 @@
     android:background="@drawable/orange_background">
 
     <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Back"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <Button
         android:id="@+id/button16"
         android:layout_width="160dp"
         android:layout_height="154dp"
+        android:background="@android:color/white"
         android:text="Meditation"
         android:textSize="23sp"
-        android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="160dp"
         android:layout_height="154dp"
+        android:background="@android:color/white"
         android:text="Yoga"
         android:textSize="30sp"
-        android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.403" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="160dp"
         android:layout_height="154dp"
-        android:layout_marginBottom="148dp"
+        android:layout_marginBottom="92dp"
+        android:background="@android:color/white"
         android:text="Ted Talks"
         android:textSize="28sp"
-        android:background="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -52,12 +67,13 @@
         android:id="@+id/textView3"
         android:layout_width="331dp"
         android:layout_height="120dp"
-        android:text="Mental Health Resources"
-        android:textSize="50sp"
         android:gravity="center"
+        android:text="Mental Health Resources"
+        android:textColor="@android:color/black"
+        android:textSize="50sp"
         app:layout_constraintBottom_toTopOf="@+id/button16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.654" />
 </androidx.constraintlayout.widget.ConstraintLayout>

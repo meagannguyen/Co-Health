@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:text="Back"
+        android:textSize="20sp"
         android:background="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +26,7 @@
         android:id="@+id/button14"
         android:layout_width="355dp"
         android:layout_height="51dp"
+        android:textSize="20sp"
         android:text="Bipolar Disorder"
         android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
@@ -35,6 +37,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="OCD"
+        android:textSize="20sp"
         android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="450dp" />
@@ -44,6 +47,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="Anxiety"
+        android:textSize="20sp"
         android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="374dp" />
@@ -53,6 +57,7 @@
         android:layout_width="355dp"
         android:layout_height="51dp"
         android:text="Depression"
+        android:textSize="20sp"
         android:background="@android:color/white"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="301dp" />
@@ -63,6 +68,7 @@
         android:layout_height="106dp"
         android:text="Support Groups"
         android:textSize="56sp"
+        android:textColor="@android:color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
