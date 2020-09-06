@@ -1,6 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        :textSize="30sp"
+        android:layout_width="331dp"
+        android:layout_height="97dp"
+        android:android
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName|textImeMultiLine"
+        android:text="Have you had trouble falling or staying asleep more than three days this week?"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="294dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Your answer here"
+        android:inputType="textPersonName"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:text="Have you had poor appetite more than three days this past week?"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="279dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="Your answer here"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="357dp"
+        android:layout_height="89dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:text="Have you had trouble concentrating more than 3 days this week?"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer here"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="339dp"
+        android:layout_height="103dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:text="Do you feel like a failiure or as if you have let youreself and loved ones down?"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your Answer Here"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="347dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textMultiLine|textPersonName"
+        android:text="Are having thoughts of suicide?"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your answer here"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="674dp" /><![CDATA[
+
+
+
+
+
+
+
+
+
+
+
+    "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+    android:textSize="50sp"
+
+
+
+
+
+
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>
