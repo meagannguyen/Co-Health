@@ -45,6 +45,7 @@
         android:inputType="textMultiLine"
         android:text="Disclaimer: Volunteers are not licensed health professionals. If you are seeking a mental health diagnosis or treatment, please refer to our licensed therapists. Volunteers undergo a required screening and course prior to being hired. However, volunteers are not required to abide by doctor-patient confidentiality. If you have any thoughts of suicide or self-harm, please call the National Suicide Hotline, the national emergency number, or refer to our licensed therapists."
         android:textSize="15sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
