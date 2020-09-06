@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Back"
+
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
@@ -23,6 +24,7 @@
         android:layout_width="242dp"
         android:layout_height="186dp"
         android:text="Browse Therapists"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -35,6 +37,7 @@
         android:layout_width="242dp"
         android:layout_height="186dp"
         android:text="Be Paired with a Therapist"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
